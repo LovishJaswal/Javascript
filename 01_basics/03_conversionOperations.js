@@ -45,4 +45,11 @@ console.log(valueInNumberString, typeof valueInNumberString); //NaN number
 //Now we will see what happens when we convert to boolean datatype
 
 //1 => true, 0 => false, "" => false, "loremIpsum" => true (all of bool datatype)
+
 // and numbers get converted to strings easily
+
+//*********************Operations****************************
+
+//operations are simple, we can do +-%/#\* but just one thing to note
+console.log("2" + 2 + 2); // 222
+console.log(2 + 2 + "2"); //42 because of priority, this was the thing to note, else everything is already known such as string concatenation
