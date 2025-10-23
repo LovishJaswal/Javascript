@@ -20,7 +20,8 @@ console.log(valueInNumberUser, typeof valueInNumberUser); //NaN number
 
 //Case of null
 let scoreNull = null;
-let valueInNumberNull = Number(scoreNull);                                   
+let valueInNumberNull = Number(scoreNull);
+console.log(typeof scoreNull);                                   
 console.log(valueInNumberNull, typeof valueInNumberNull); //0 number
 
 

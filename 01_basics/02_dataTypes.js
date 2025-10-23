@@ -13,7 +13,7 @@
 //1. Number
 
 let myNumber = 42;               //Integer
-let myFloat = 3.14;              //Floating point number
+let myFloat = 3.14;              //Floating point number//also referred as number in js
 let myNegativeNumber = -7;       //Negative number
 let myInfinity = Infinity;       //Infinity
 let myNaN = NaN;                 //Not a Number
