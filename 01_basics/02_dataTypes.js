@@ -50,7 +50,7 @@ console.log({myUndefined, myNull});
 //If you want to know the datatype of a variable, you can use typeof operator
 console.log("Data Types using typeof:");
 console.log("myNumber is of type:", typeof myNumber);                     //number
-console.log("myString is of type:", typeof myString);                     //string
+console.log("myString is of type:", typeof (myString));                   //string  //here we took it as method
 console.log("myTrue is of type:", typeof myTrue);                         //boolean
 console.log("myUndefined is of type:", typeof myUndefined);               //undefined
 console.log("myNull is of type:", typeof myNull);// Could be an interview que, this would output "object"(this is a known quirk in JS)
