@@ -25,7 +25,7 @@ console.log({myNumber, myFloat, myNegativeNumber, myInfinity, myNaN});
 
 let myString = "Hello, JavaScript!"; //String using double quotes
 let myChar = 'A';                    //String using single quotes
-let myTemplateString = `This is a template string with a number: ${myNumber}`;
+let myTemplateString = `This is a template string with a number: ${myNumber}`; //Template string using backticks
 console.log("String Types:");
 console.log({myString, myChar, myTemplateString});
 
@@ -33,7 +33,7 @@ console.log({myString, myChar, myTemplateString});
 //3. Boolean
 
 let myTrue = true;               //Boolean true
-let myFalse = false;
+let myFalse = false;             //Boolean false
 console.log("Boolean Types:");
 console.log({myTrue, myFalse});
 
@@ -41,7 +41,7 @@ console.log({myTrue, myFalse});
 //4. Undefined and Null
 
 let myUndefined;                //Undefined variable
-let myNull = null;
+let myNull = null;              //Null value
 console.log("Undefined and Null Types:");
 console.log({myUndefined, myNull});
 
