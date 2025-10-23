@@ -7,8 +7,8 @@ const myConstant = 11                     //Totally depends on you to add a semi
 
 //Now, let's see how a variable is declared in Javascript
 //There are three ways to declare a variable in Javascript: var, let, and "nothing"
-var myVar = 10;                           //Old way of declaring a variable, don' use it now becaise of its functional scope
-let myLet = 20;                           //New way of declaring a variable, most used nowadays because of its block scope
+var myVar = 10;                           //Old way of declaring a variable, don' use it now because of its functional and block scope
+let myLet = 20;                           //New way of declaring a variable, most used nowadays
 myNothing = 30;                           //Declaring a variable without var or let
 
 
