@@ -90,3 +90,31 @@ console.log(Object.entries(obj1));   //[ [ '1', 'a' ], [ '2', 'b' ] ]
 //we can use this method to check if the key exists or not, returns a boolean
 console.log(obj1.hasOwnProperty(1));         //true
 console.log(obj1.hasOwnProperty("name"));    //false
+
+
+
+
+//----------------------------------------------Objects Destructuring----------------------------------------------
+
+
+
+
+//Now objects destructuring isn't a mandatory but good practice
+//It just helps us to make our code shorter and more readable
+
+const Course = {
+    name: "Chai aur js",
+    fee: 0,
+    Instructor: "Hitesh Chaudhary"
+}
+
+//Now we can access the keys normally, but problem occurs when we have to do it multiple times
+//and write the syntax again and again
+//Instead we can use Objects Destructuring
+
+const {Instructor} = Course;
+//Now we can do
+console.log(Instructor);         //Hitesh Chaudhary
+//or even shorter
+const {name:n} = Course;
+console.log(n);                  //Chai aur js
