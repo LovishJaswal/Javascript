@@ -1,6 +1,6 @@
 //Arrays are most commonly used object in JS 
 //WE alr know arrays, indexing and all
-//JS arrays suporrts different type of data in one variable and the arays are resizable
+//JS arrays supports different type of data in one variable and the arays are resizable
 //JS array-copy-operations create shallow copies(og array data would change) instead of deep copies(og array won't change)
 
 const myArr = [0, 1, 2, 3, 4, 5];
